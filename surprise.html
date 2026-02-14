@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise! | Valentine</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .media-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px; /* Space between photo and video */
+            margin-bottom: 25px;
+        }
+
+        /* This overrides the 300px limit from the main css so your photo can be bigger */
+        .special-photo {
+            width: 100%;
+            max-width: 450px; 
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .special-video {
+            width: 100%;
+            max-width: 450px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background-hearts"></div>
+
+    <div class="main-card">
+        <h1>Here is your surprise! </h1>
+        <p id="sub-text">(˶  >   ₃  < ˶)♡ </p>
+
+
+            <video controls class="special-video">
+                <source src="IMages/vid/vi.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <button class="back-btn" onclick="location.href='folders.html'">← Back to Surprises</button>
+    </div>
+
+</body>
+</html>
