@@ -3,15 +3,15 @@
    ========================================= */
 @font-face {
     font-family: 'HeaderFont';
-    src: url('Fonts/Cheerful\ Holiday.otf') format('truetype');
+    src: url('Cheerful\ Holiday.otf') format('truetype');
 }
 @font-face {
     font-family: 'MessageFont';
-    src: url('Fonts/KGTeacherJordan.otf') format('truetype');
+    src: url('KGTeacherJordan.otf') format('truetype');
 }
 @font-face {
     font-family: 'ButtonFont';
-    src: url('Fonts/KGTeacherJordan.otf') format('truetype');
+    src: url('KGTeacherJordan.otf') format('truetype');
 }
 
 /* =========================================
@@ -136,3 +136,4 @@ button:hover {
     background-color: #8e9499;
     font-size: 1.1rem;
 }
+
