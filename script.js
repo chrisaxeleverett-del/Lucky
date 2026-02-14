@@ -1,11 +1,11 @@
 // 1. CONFIGURATION - Match these exactly to your filenames!
-const successImg = "IMages/py.gif"
+const successImg = "py.gif"
 
 const noImages = [
-   "IMages/p.gif",
-   "IMages/p1.gif",
-   "IMages/p2.gif",
-   "IMages/p3.gif",
+   "p.gif",
+   "p1.gif",
+   "p2.gif",
+   "p3.gif",
 
 
 ]; 
@@ -74,3 +74,4 @@ if (folderBtn) {
     });
 
 }
+
